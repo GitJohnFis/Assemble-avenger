@@ -1,4 +1,3 @@
-
 section .text            ;text section
 global_start
 
@@ -28,6 +27,10 @@ syscall     ; call kernal
 
 
 
-;in terminal use_nasm -fe1f64 index.asm
-;1d app.o -o app
-;./app
+; in terminal use_nasm -fe1f64 index.asm
+; 1d app.o -o app
+; ./app
+; install NASM on linxux
+; use_sudo apt update
+; then use_sudo apt install nasm
+; check for install verify use_nasm -v
